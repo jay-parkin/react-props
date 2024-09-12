@@ -1,3 +1,7 @@
 export default function Header() {
-  return <h1>React props lesson</h1>;
+  return (
+    <div className="App-header">
+      <h1>React props lesson</h1>
+    </div>
+  );
 }
